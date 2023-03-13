@@ -20,7 +20,8 @@ body{
     width: 25%;
     margin: auto;
     padding: 3%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    margin-top: 24vh;
     opacity: 7;
 }
 
@@ -75,7 +76,8 @@ input{
 }
 
 .builder{
-    margin-top: 19%;
+    /* margin-top: 19%; */
+    margin-top: 44vh;
 }
 
 .builder img{
@@ -88,4 +90,37 @@ input{
 
 .right{
     margin-right: 6%;
+}
+
+@media screen and (max-width: 1139px)
+{
+    .builder{
+        display: none;
+    }
+
+    label{
+        font-size: 1.2rem;
+    }
+
+    input{
+        width: 20vw;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    .calculate{
+        padding: 0.5vw;
+    }
+
+    .calculate:hover {
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    .container{
+        width: 56vw;
+        padding: 0.5vw;
+    }
 }
